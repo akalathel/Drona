@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dip">
+ <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_gravity="center"
+    android:layout_marginBottom="20dip"
+    android:textSize="25sp"
+    android:text="INDIVIDUAL ANALYSIS" android:gravity="center" android:textStyle="bold"/>
+    
+    
+    <TableLayout android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:stretchColumns="*">   
+ 	<TableRow>  
+  
+ 		<TextView  android:id="@+id/no_label" android:text="No" android:textStyle="bold" android:textSize="21sp"/>
+    
+ 		<EditText android:id="@+id/notextbox"  android:inputType="textCapCharacters|textImeMultiLine"/>
+    
+    	<TextView  android:id="@+id/rank_label" android:text="Rank" android:textStyle="bold" android:textSize="21sp"/>
+    
+ 		<EditText android:id="@+id/ranktextbox" android:inputType="none"/>
+    
+    	<TextView  android:id="@+id/name_label" android:text="Name" android:textStyle="bold" android:textSize="21sp"/>
+    
+ 		<EditText android:id="@+id/nametextbox" android:inputType="none"/>
+    
+    	<TextView  android:id="@+id/subunit_label" android:text="Subunit" android:textStyle="bold" android:textSize="21sp"/>
+    
+ 		<EditText android:id="@+id/subunittextbox" android:inputType="none"/>
+    
+    </TableRow>
+    
+    <TableRow>
+    
+    	<TextView  android:id="@+id/type_label" android:text="Type" android:textStyle="bold" android:textSize="21sp"/>
+    
+    	<Spinner android:id="@+id/typespinner"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:prompt="@string/type_prompt"/>
+          
+         <TextView  android:id="@+id/wpn_label" android:text="Weapon" android:textStyle="bold" android:textSize="21sp"/>
+    
+    	<Spinner android:id="@+id/weaponspinner"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:prompt="@string/weapon_prompt" />
+    
+    	<TextView  android:id="@+id/yr_label" android:text="Year" android:textStyle="bold" android:textSize="21sp"/>
+    
+    	<Spinner android:id="@+id/yearspinner"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:prompt="@string/year_prompt" />
+          
+    
+    </TableRow>
+    
+    </TableLayout>
+    
+    <TableLayout  android:id="@+id/indlanalysis_tablelayout"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:stretchColumns="*">   
+ 
+ <TableRow android:id="@+id/tablespecs"
+           android:visibility="visible">  
+ 
+ <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="DATE"
+ />
+   
+ <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="WPN"
+ />
+
+ <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="BUTT NO"
+ />
+
+ <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="REG NO"
+ />
+
+ <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="TYPE"
+ />
+
+ <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="POSN"
+ />
+
+ <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="RG"
+ />
+
+<!--  What is HPS ??????????
+ <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="HPS"
+ />
+-->
+
+ <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="PTS"
+ />
+
+ <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="%"
+ />
+
+ <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="STD"
+ />
+
+ <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="FAULTS"
+ />
+
+<TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="INFO"
+ />
+ 
+</TableRow>
+
+</TableLayout>
+    
+    <RelativeLayout android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true">
+ 
+  		<Button android:id="@+id/help" android:layout_width="wrap_content" android:text="INFO" android:gravity="right" android:layout_height="wrap_content" android:textStyle="bold" android:layout_alignParentBottom="true" android:layout_alignParentRight="true"/>
+
+ 		<Button android:id="@+id/back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BACK" android:textStyle="bold" android:layout_toLeftOf="@id/help" android:layout_centerInParent="true" android:layout_alignParentBottom="true" android:layout_alignTop="@id/help"/>
+
+        <Button android:id="@+id/chart" android:layout_width="wrap_content" android:text="CHART" android:layout_height="wrap_content" android:textStyle="bold" android:layout_toLeftOf="@id/back" android:layout_alignTop="@id/back" android:layout_alignParentBottom="true"/>
+
+ 		<Button android:id="@+id/ok" android:layout_width="wrap_content" android:text="OK" android:layout_height="wrap_content" android:textStyle="bold" android:layout_toLeftOf="@id/chart" android:layout_alignTop="@id/chart" android:layout_alignParentBottom="true"/>
+ 
+ 		
+ 	</RelativeLayout>
+    
+</LinearLayout>

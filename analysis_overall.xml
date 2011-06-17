@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dip">
+ <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_gravity="center"
+    android:layout_marginBottom="20dip"
+    android:textSize="25sp"
+    android:text="OVERALL ANALYSIS" android:gravity="center" android:textStyle="bold"/>
+    
+    
+    <TableLayout android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:stretchColumns="*">   
+ 	<TableRow>  
+  
+ 		<TextView  android:id="@+id/subunit_label" android:text="Subunit" android:textStyle="bold" android:textSize="21sp"/>
+    
+ 		<Spinner android:id="@+id/subunit_spinner"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          />
+    
+    	<TextView  android:id="@+id/wpn_label" android:text="Weapon" android:textStyle="bold" android:textSize="21sp"/>
+    
+ 		<Spinner android:id="@+id/wpn_spinner"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:prompt="@string/weapon_prompt"/>
+    
+    	<TextView  android:id="@+id/type_label" android:text="Type" android:textStyle="bold" android:textSize="21sp"/>
+    
+ 		<Spinner android:id="@+id/type_spinner"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:prompt="@string/type_prompt"/>
+    
+      	<TextView  android:id="@+id/percent_label" android:text=" % " android:textStyle="bold" android:textSize="21sp"/>
+    
+ 	 	<Spinner android:id="@+id/percent_spinner"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          />
+    
+    </TableRow>
+    
+    <TableRow>
+    
+    	<TextView  android:id="@+id/std_label" android:text="Std" android:textStyle="bold" android:textSize="21sp"/>
+    
+    	<Spinner android:id="@+id/std_spinner"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          />
+          
+         <TextView  android:id="@+id/vis_label" android:text="Visibility" android:textStyle="bold" android:textSize="21sp"/>
+    
+    	<Spinner android:id="@+id/vis_spinner"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:prompt="@string/vis_prompt" />
+    
+    	<TextView  android:id="@+id/yr_label" android:text="Year" android:textStyle="bold" android:textSize="21sp"/>
+    
+    	<Spinner android:id="@+id/year_spinner"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:prompt="@string/year_prompt" />
+          
+    <!--      <TextView  android:id="@+id/period_label" android:text="Period" android:textStyle="bold" android:textSize="21sp"/>  
+    
+        <Button android:id="@+id/from_button" android:layout_width="wrap_content" android:text="FROM" android:layout_height="wrap_content" android:textStyle="bold" />
+        
+        <TextView  android:id="@+id/to_label" android:text="To" android:textStyle="bold" android:textSize="21sp"/>  
+        
+        <Button android:id="@+id/to_button" android:layout_width="wrap_content" android:text="TO" android:layout_height="wrap_content" android:textStyle="bold" />
+    -->
+    
+    </TableRow>
+    
+    </TableLayout>
+    
+    <TableLayout  android:id="@+id/overallanalysis_tablelayout"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:stretchColumns="*">   
+ 
+ <TableRow android:id="@+id/tablespecs"
+           android:visibility="visible">  
+ 
+ <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="ARMY_NO"
+ />
+   
+ <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="RANK"
+ />
+
+ <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="NAME"
+ />
+
+ <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="SUBUNIT"
+ />
+
+ <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="WPN"
+ />
+
+ <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="BUTT NO"
+ />
+
+ <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="REG NO"
+ />
+
+
+ <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="SCORES"
+ />
+
+
+ <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="%"
+ />
+
+ <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="STD"
+ />
+
+<TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="INFO"
+ />
+ 
+</TableRow>
+
+</TableLayout>
+    
+    <RelativeLayout android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true">
+ 
+  		<Button android:id="@+id/help" android:layout_width="wrap_content" android:text="INFO" android:gravity="right" android:layout_height="wrap_content" android:textStyle="bold" android:layout_alignParentBottom="true" android:layout_alignParentRight="true"/>
+
+ 		<Button android:id="@+id/back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BACK" android:textStyle="bold" android:layout_toLeftOf="@id/help" android:layout_centerInParent="true" android:layout_alignParentBottom="true" android:layout_alignTop="@id/help"/>
+
+        <Button android:id="@+id/chart" android:layout_width="wrap_content" android:text="CHART" android:layout_height="wrap_content" android:textStyle="bold" android:layout_toLeftOf="@id/back" android:layout_alignTop="@id/back" android:layout_alignParentBottom="true"/>
+
+ 		<Button android:id="@+id/ok" android:layout_width="wrap_content" android:text="OK" android:layout_height="wrap_content" android:textStyle="bold" android:layout_toLeftOf="@id/chart" android:layout_alignTop="@id/chart" android:layout_alignParentBottom="true"/>
+ 
+ 		
+ 	</RelativeLayout>
+    
+</LinearLayout>

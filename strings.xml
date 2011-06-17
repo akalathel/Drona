@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, DRONA!</string>
+    <string name="app_name">DRONA</string>
+     <string name="main">Main Menu</string>
+    <string name="input">INPUT DATA</string>
+    <string name="select">SELECT FIRERS</string>
+    <string name="weapon">WPN ALLOTMENT</string>
+    <string name="ammn">AMN ALLOTMENT</string>
+    <string name="detailsel">DETAIL SELECTION</string>
+    <string name="firing">FIRING ANALYSIS</string>
+    <string name="inputmanual">INPUT MANUALLY</string>
+    <string name="loaddb">LOAD DATABASE</string>
+    <string name="delete">DELETE MANUALLY</string>
+    <string name="selupdate">SELECTIVE UPDATE</string>
+    <string name="usb">USB</string>
+    <string name="wifi">WIFI</string>
+    <string name="no">NO</string>
+    <string name="dob">DOB</string>
+    <string name="rank">RANK</string>
+    <string name="rank_prompt">Choose a rank</string>
+     <string name="percent_prompt">Choose a percent</string>
+    <string-array name="rank_array1">
+      <item>LT</item>
+      <item>CAPT</item>
+      <item>MAJ</item>
+      <item>LTCOL</item>
+      <item>COL</item>
+    </string-array>
+    <string-array name="rank_array2">
+      <item>NB SUB</item>
+      <item>SUB</item>
+      <item>SUB MAJ</item>
+    </string-array>
+    <string-array name="rank_array3">
+      <item>GNR</item>
+      <item>L/NK</item>
+      <item>NK</item>
+      <item>L/HAV</item>
+      <item>HAV</item>
+    </string-array>
+    <string-array name="rank_array4">
+     
+    </string-array>
+    <string-array name="nooffirers_array">
+      <item>6</item>
+      <item>12</item>
+      <item>18</item>
+      <item>24</item>
+      <item>30</item>
+      <item>48</item>
+      <item>60</item>
+      <item>78</item>
+      <item>84</item>
+      <item>96</item>
+    </string-array>
+    <string-array name="noofbalancefirers_array">
+      <item>1</item>
+      <item>2</item>
+      <item>3</item>
+      <item>6</item>
+      <item>12</item>
+    </string-array>
+    <string name="doe">DOE</string>
+    <string name="name">NAME</string>
+    <string name="weapon_prompt">Choose a weapon</string>
+    <string-array name="weapon_array">
+      <item>RIF INSAS 5.56 MM</item>
+      <item>LMG INSAS 5.56MM</item>
+      <item>CMG 9 MM</item>
+      <item>LMG 7.62 MM</item>
+      <item>AK 47/56</item> 
+      <item>PISTOL AUTO 9MM</item>
+    </string-array>
+    <string-array name="weapon_select">
+      <item>RIF INSAS 5.56 MM</item>
+      <item>LMG INSAS 5.56MM</item>
+      <item>CMG 9 MM</item>
+      <item>LMG 7.62 MM</item>
+      <item>AK 47/56</item> 
+      <item>PISTOL AUTO 9MM</item>
+      <item>ALL</item>
+    </string-array>
+    
+    <string name="year_prompt">Choose a year</string>
+    <string-array name="year_array">
+    	<item>2011</item>
+    	<item>2012</item>
+    	<item>2013</item>
+    	<item>2014</item>
+    	<item>2015</item>
+    	<item>2016</item>
+    	<item>2017</item>
+    	<item>2018</item>
+    	<item>2019</item>
+    	<item>2020</item>
+    	<item>ALL</item>
+    </string-array>
+    
+    <string-array name="year_select">
+    	<item>2011</item>
+    	<item>2012</item>
+    	<item>2013</item>
+    	<item>2014</item>
+    	<item>2015</item>
+    	<item>2016</item>
+    	<item>2017</item>
+    	<item>2018</item>
+    	<item>2019</item>
+    	<item>2020</item>
+    </string-array>
+    
+    <string name="trade_prompt">Choose a trade</string>
+    <string-array name="trade_array">
+      <item>GD</item>
+      <item>OPR</item> 
+      <item>TA</item>
+      <item>SVYR</item>
+      <item>DMT</item>
+      <item>CHEF</item>
+      <item>DRESSER</item>
+      <item>HOUSE KEEPER</item>
+      <item>TLR</item>
+      <item>ER</item>
+      <item>PTR</item>
+      <item>CPTR</item>
+      <item>CLK</item>
+      <item>SKT</item>
+      <item>SHGD</item>
+    </string-array>
+    <string-array name="trade_array_null"></string-array>
+    <string name="trade">TRADE</string>
+    <string name="butt">BUTT NO</string>
+    <string name="subunit">SUBUNIT</string>
+    <string name="subunit_prompt">Choose a subunit</string>
+    <string-array name="subunit_array">
+      <item>HQ</item>
+      <item>P</item>
+      <item>Q</item>
+      <item>R</item>
+    </string-array>
+    <string-array name="subunit_select">
+      <item>HQ</item>
+      <item>P</item>
+      <item>Q</item>
+      <item>R</item>
+      <item>ALL</item>
+    </string-array>
+    
+    <string name="reg">REG NO</string>
+    <string-array name="addl_ammun">
+    <item>NIL</item>
+    <item>05</item>
+    <item>10</item>
+    <item>20</item>
+    <item>30</item>
+    </string-array>
+    <string name="no_prompt">Choose a number</string>
+        <string name="permission">Application wants to access your external storage device.</string>
+        <string name="permissionWiFi">Application wants to access your Wi-Fi Hardware.</string>
+    <string-array name="rank_array5">
+      <item>GNR</item>
+      <item>L/NK</item>
+      <item>NK</item>
+      <item>L/HAV</item>
+      <item>HAV</item>
+      <item>NB SUB</item>
+      <item>SUB</item>
+      <item>SUB MAJ</item>
+      <item>LT</item>
+      <item>CAPT</item>
+      <item>MAJ</item>
+      <item>LTCOL</item>
+      <item>COL</item>
+    </string-array>
+    
+     <string-array name="percentage_array">
+    <item>10</item>
+    <item>20</item>
+    <item>30</item>
+    <item>40</item>
+    <item>50</item>
+    <item>60</item>
+    <item>70</item>
+    <item>80</item>
+    <item>90</item>
+    <item>100</item>
+    <item>ALL</item>
+    </string-array>
+   
+   
+      <string name="vis_prompt">Choose visibility</string>
+<string-array name="vis_array">
+ <item>DAY</item>
+ <item>NIGHT</item>
+</string-array>
+
+<string-array name="vis_select">
+ <item>DAY</item>
+ <item>NIGHT</item>
+ <item>BOTH</item>
+</string-array>
+
+<string-array name="details_array">
+ <item>05</item>
+ <item>06</item>
+ <item>08</item>
+ <item>10</item>
+ <item>12</item>
+</string-array>
+
+<string name="type_prompt">Choose type of firing</string>
+<string-array name="typeOfFiring_array">
+ <item>GROUPING</item>
+ <item>ZEROING</item>
+ <item>APLN</item>
+ <item>ARC</item>
+</string-array>
+<string-array name="typeOfFiring_select">
+ <item>GROUPING</item>
+ <item>ZEROING</item>
+ <item>APLN</item>
+ <item>ARC</item>
+ <item>ALL</item>
+</string-array>
+
+<string-array name="range_array">
+ <item>5</item>
+ <item>10</item>
+ <item>15</item>
+ <item>20</item>
+ <item>25</item>
+ <item>30</item>
+ <item>33</item>
+ <item>50</item>
+ <item>100</item>
+ <item>200</item>
+ <item>300</item>
+</string-array>
+
+
+<string-array name="std_array">
+<item>MM</item>
+<item>1st</item>
+<item>SS</item>
+<item>POOR</item>
+<item>ALL</item>
+</string-array>
+
+ 
+<string name="posn_prompt">Choose position</string>
+<string name="prac_prompt">Choose practice</string>
+<string name="range_prompt">Choose a range</string>
+<string name="tgttype_prompt">Choose a tgt type</string>
+
+<string-array name="riflegpposn_array">
+ <item>Lying SP</item>
+ <item>Kneeling UNSP</item>
+ <item>Std Fire Trench UNSP</item>
+</string-array>
+
+ 
+<string-array name="rifleapplposn_array">
+ <item>Lying SP</item>
+ <item>Kneeling UNSP</item>
+ <item>Std Fire Trench SP</item>
+</string-array>
+
+ 
+<string-array name="riflearcprac_array">
+ <item>Defence Enemy Assaulting(Timed Single shot)</item>
+ <item>Patrol Engagement(Snap Shooting)</item>
+ <item>Fighting in Jungle/Built Up Areas(Snap shot)</item>
+ <item>Night Shoot Defence(Timed)</item>
+</string-array>
+
+ 
+<string-array name="riflearcposn_array">
+ <item>Std Fire Trench SP</item>
+ <item>Lying UNSP</item>
+ <item>Kneeling UNSP</item>
+</string-array>
+
+ 
+<string-array name="riflearctgt_array">
+ <item>Fig 11</item>
+ <item>Fig 12</item>
+</string-array>
+
+ 
+<string-array name="pistolapplprac_array">
+ <item>Deliberate Aimed</item>
+ <item>Deliberate</item>
+ </string-array>
+
+ 
+<string-array name="pistolapplposn_array">
+ <item>Standing</item>
+ <item>Battle Crouch</item>
+ </string-array>
+
+ 
+<string-array name="pistolarcprac_array">
+ <item>Deliberate Aimed</item>
+ <item>Snap Shooting</item>
+ <item>Timed - Rapid Fire</item>
+ <item>Timed</item>
+ <item>Times</item>
+ <item>Deliberate(Natural Alignment)</item>
+ </string-array>
+ 
+ 
+<string-array name="pistolarctgt_array">
+ <item>Fig 11</item>
+ <item>Two Fig 11</item>
+</string-array>
+
+ 
+<string-array name="lmggpprac_array">
+ <item>Deliberate</item>
+ <item>Deliberate(Burst)</item>
+</string-array>
+
+ 
+<string-array name="lmggpposn_array">
+ <item>Lying LMG on bipod</item>
+ <item>Fire trench LMG on bipod</item>
+ <item>Fire trench LMG bipod folded,sand bag sp</item>
+</string-array>
+
+ 
+<string-array name="lmgapplposn_array">
+ <item>Lying LMG on bipod</item>
+ <item>Fire trench LMG on bipod</item>
+ <item>Fire trench LMG bipod folded</item>
+</string-array>
+
+ 
+<string-array name="lmgarcprac_array">
+ <item>Defence Enemy Assaulting(Timed Burst)</item>
+ <item>Patrol Engagement(Snap Shooting)</item>
+ <item>Defence(Timed Bursts)</item>
+ <item>Night Shot Defence Enemy Assaulting</item>
+</string-array>
+
+ 
+<string-array name="carbinegpposn_array">
+ <item>Std Fire Trench SP</item>
+ <item>Kneeling UNSP</item>
+ <item>Standing UNSP</item>
+</string-array>
+
+ 
+<string-array name="carbineapplposn_array">
+ <item>Battle Crouch</item>
+ <item>Kneeling UNSP</item>
+ <item>Std UNSP</item>
+ <item>Std Fire Trench SP</item>
+</string-array>
+
+ 
+<string-array name="carbineapplrange_array">
+ <item>15</item>
+ <item>30</item>
+ <item>50</item>
+ <item>100</item> 
+</string-array>
+
+ 
+<string-array name="carbinearcprac_array">
+ <item>Defence Enemy Assaulting(Timed Single shot)</item>
+ <item>Patrol Engagement(Snap Shooting)</item>
+ <item>Offensive Operation (Deliberate bursts)</item>
+ <item>Fighting in Built Up Areas(Timed Single shot)</item>
+ <item>Defence(Deliberate-Single shot)</item>
+</string-array>
+
+
+<string-array name="prac_array">
+ <item>Deliberate</item>
+ <item>Deliberate Single Shot</item>
+ <item>Zeroing-Deliberate</item>
+ <item>Zeroing-Deliberate Single Shot</item>
+ <item>Deliberate Aimed</item>
+ <item>Defence Enemy Assaulting(Timed Single shot)</item>
+ <item>Patrol Engagement(Snap Shooting)</item>
+ <item>Fighting in Jungle/Built Up Areas(Snap shot)</item>
+ <item>Night Shoot Defence(Timed)</item>
+ <item>Snap Shooting</item>
+ <item>Timed - Rapid Fire</item>
+ <item>Timed</item>
+ <item>Times</item>
+ <item>Deliberate(Natural Alignment)</item> 
+ <item>Deliberate(Burst)</item> 
+ <item>Defence Enemy Assaulting(Timed Burst)</item>
+ <item>Defence(Timed Bursts)</item>
+ <item>Night Shot Defence Enemy Assaulting</item>
+ <item>Offensive Operation (Deliberate bursts)</item>
+ <item>Fighting in Built Up Areas(Timed Single shot)</item>
+ <item>Defence(Deliberate-Single shot)</item>
+</string-array>
+
+
+<string-array name="posn_array">
+ <item>Lying SP</item>
+ <item>Lying UNSP</item>
+ <item>Kneeling UNSP</item>
+ <item>Fire Trench SP</item>
+ <item>Std Fire Trench SP</item>
+ <item>Std Fire Trench UNSP</item>
+ <item>Standing</item>
+ <item>Battle Crouch</item>
+ <item>Lying LMG on bipod</item>
+ <item>Fire trench LMG on bipod</item>
+ <item>Fire trench LMG bipod folded,sand bag sp</item>
+ <item>Fire trench LMG bipod folded</item>
+ <item>Standing UNSP</item>
+</string-array>
+
+
+<string-array name="tgttype_array">
+ <item>30 cms Gp tgt</item>
+ <item>120 cms zeroing tgt</item>
+ <item>120 cms tgt</item>
+ <item>Fig 11</item>
+ <item>Two Fig 11</item>
+ <item>Fig 12</item>
+ <item></item>
+</string-array>
+   
+   </resources>

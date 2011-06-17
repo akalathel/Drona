@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+  <LinearLayout
+	android:orientation="vertical"
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent"
+	android:layout_gravity="center"
+	android:paddingLeft="50dip"
+	android:paddingRight="50dip" >
+
+	<TextView
+		android:text="FIRING ANALYSIS"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginBottom="50dip"
+		android:textSize="24.5sp" />
+
+	<TableLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center"
+		android:stretchColumns="*" >
+	
+	<TableRow android:paddingTop="10px" android:paddingBottom="10px">
+
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/IndlFirers"
+			android:text="INDIVIDUAL"
+			android:textSize="20px" />
+
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/Overall"
+			android:text="OVERALL STDS"
+			android:textSize="20px" />
+
+	</TableRow>
+<!--  
+	<TableRow android:paddingTop="10px" android:paddingBottom="10px">
+
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/BestFirers"
+			android:text="BEST"
+			android:textSize="20px" />
+
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/Failures"
+			android:text="FAILURES"
+			android:textSize="20px" />
+
+	</TableRow>	-->
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/BalFirers"
+		android:text="BALANCE FIRERS"
+		android:textSize="20px" 
+		android:layout_gravity="center"/>
+	
+	</TableLayout>
+
+	<AbsoluteLayout
+	android:id="@+id/widget197"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	>
+
+	<ImageButton
+		android:id="@+id/home"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_x="542px"
+		android:layout_y="12px"
+		android:src="@drawable/home">
+	</ImageButton>
+
+	</AbsoluteLayout>
+
+	</LinearLayout>
+  
+</LinearLayout>

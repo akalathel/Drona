@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dip">
+ <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_gravity="center"
+    android:layout_marginBottom="20dip"
+    android:textSize="25sp"
+    android:text="INDIVIDUAL ANALYSIS" android:gravity="center" android:textStyle="bold"/>
+    
+    
+    <TableLayout android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:stretchColumns="*">   
+ 	<TableRow>  
+  
+ 		<TextView  android:id="@+id/lchartno_label" android:text="No" android:textStyle="bold" android:textSize="21sp"/>
+    
+ 		<EditText android:id="@+id/lchartnotextbox"  
+ 		          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          />
+    
+    	<TextView  android:id="@+id/lchartrank_label" android:text="Rank" android:textStyle="bold" android:textSize="21sp"/>
+    
+ 		<EditText android:id="@+id/lchartranktextbox" 
+                  android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          />
+    
+    	<TextView  android:id="@+id/lchartname_label" android:text="Name" android:textStyle="bold" android:textSize="21sp"/>
+    
+ 		<EditText android:id="@+id/lchartnametextbox" 
+                   android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          />
+    
+    	<TextView  android:id="@+id/lchartsubunit_label" android:text="Subunit" android:textStyle="bold" android:textSize="21sp"/>
+    
+ 		<EditText android:id="@+id/lchartsunittextbox" 
+ 		           android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          />
+    
+    </TableRow>
+    
+    <TableRow>
+    
+    	<TextView  android:id="@+id/lcharttype_label" android:text="Type" android:textStyle="bold" android:textSize="21sp"/>
+    
+    	<EditText android:id="@+id/lcharttypetextbox"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          />
+          
+         <TextView  android:id="@+id/lchartwpn_label" android:text="Weapon" android:textStyle="bold" android:textSize="21sp"/>
+    
+    	<EditText android:id="@+id/lchartwpntextbox"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+           />
+    
+    	<TextView  android:id="@+id/lchartyr_label" android:text="Year" android:textStyle="bold" android:textSize="21sp"/>
+    
+    	<EditText android:id="@+id/lchartyeartextbox"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+           />
+          
+    
+    </TableRow>
+
+    <TableRow>
+
+      <TextView android:text="PERIOD: FROM " android:textStyle="bold" android:textSize="21sp"/>
+      <EditText android:id="@+id/lchartfday" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00" />
+
+      <EditText android:id="@+id/lchartfmonth" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00" />
+  
+      <EditText android:id="@+id/lchartfyear" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0000" />
+
+      <TextView android:text=" TO " android:textStyle="bold" android:textSize="21sp"/>
+      <EditText android:id="@+id/lcharttday" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00" />
+
+      <EditText android:id="@+id/lcharttmonth" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00" />
+  
+      <EditText android:id="@+id/lcharttyear" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0000" />
+
+    </TableRow>
+    
+    </TableLayout>
+    
+        
+    <RelativeLayout android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true">
+ 
+  		
+
+ 		<Button android:id="@+id/lchartback" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BACK" android:textStyle="bold" android:layout_alignParentBottom="true" android:layout_alignParentRight="true" />
+
+ 		<Button android:id="@+id/lchartok" android:layout_width="wrap_content" android:text="OK" android:layout_height="wrap_content" android:textStyle="bold" android:layout_toLeftOf="@id/lchartback" android:layout_alignTop="@id/lchartback" android:layout_alignParentBottom="true"/>
+ 
+ 		
+
+ 	</RelativeLayout>
+    
+</LinearLayout>
